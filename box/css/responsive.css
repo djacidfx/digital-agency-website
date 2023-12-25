@@ -1,0 +1,127 @@
+/* ==========================================================================
+   1.Medium devices (desktops, 1200px and bottom)
+   ========================================================================== */
+   
+@media (max-width: 1200px) { 
+	#features .left, #features .right{
+		margin-top: 0px;
+	}
+	.feature-image .mobile_image{
+		position: absolute;
+		text-align: center;
+		top: 101px;
+		left: 45px;
+	}
+}
+
+/* ==========================================================================
+   2.Medium devices (desktops, 992px and bottom)
+   ========================================================================== */	
+   
+@media (max-width: 991px) {
+	#features .single_feature{
+		text-align: center!important;
+	}
+	#features .left .icon-container {
+	  margin-top: 30px;
+	}
+	#features .right .icon-container {
+	  margin-bottom: 30px;
+	}
+	.feature-image .mobile_frame{
+		margin-bottom: 30px;
+	}
+	.feature-image .mobile_image{
+		position: absolute;
+		text-align: center;
+		top: 101px;
+		left: 258px;
+	}
+	.feature-image img{
+		margin-bottom: 30px;
+	}
+	.f_b_text {
+		padding: 0 20px;
+	}
+	.single-project .single_p_text{
+		padding: 22% 5%;	
+	}
+	#footer{
+		text-align: center;
+	}
+	#footer .copyright{
+		padding-bottom: 30px;
+	}	
+	
+	#footer .social-icon{
+		padding-bottom: 30px;
+	}
+	#footer .footer-nav{
+		margin: 0 auto;
+		float: inherit!important;
+	}	
+}
+
+/* ==========================================================================
+   3.Small devices (tablets, 768px and bottom)
+   ========================================================================== */
+   
+@media (max-width: 767px) {
+	body{
+		padding-top: 70px;
+	}
+	.navbar-brand {
+	  padding: 10px 15px 15px;
+	}
+	.navbar-default .navbar-nav > li > a{
+		padding: 12px 0;
+		font-size: 13px;	
+		position: relative;
+		text-transform: uppercase;
+		font-weight: 400;
+	}
+	.feature-image .mobile_frame {
+	  max-width: 220px;
+	}
+	.feature-image .mobile_image {
+		position: absolute;
+		text-align: center;
+		top: 82px;
+		transform: translate(-201px, -2px);
+		width: 185px;
+		left: inherit;
+	}
+	.feature_bottom{
+		padding-bottom: 50px;
+	}
+	.feature_bottom .col-sm-6{
+		padding-right: 0!important;
+	}
+	.single-project .single_p_text{
+		padding: 27% 5%;	
+	}
+}
+
+/* ==========================================================================
+   4.Small devices (Mobile, 480px and bottom)
+   ========================================================================== */
+   
+@media (max-width: 480px) {
+		.single-project .single_p_text{
+		padding: 22% 5%;	
+	}
+	#countup h3 {
+		font-size: 35px;
+		line-height: 50px;
+	}
+}
+
+/* ==========================================================================
+   5.Small devices (Mobile, 320px and bottom)
+   ========================================================================== */
+   
+@media (max-width: 320px) {
+		.single-project .single_p_text{
+		padding: 13% 5%;	
+	}
+}
